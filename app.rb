@@ -12,7 +12,7 @@ class App < Sinatra::Base
     @pg = params[:point_gaurd]
     @sg = params[:shooting_gaurd]
     @sf = params[:small_forward]
-    @pf = params[:poward_forward]
+    @pf = params[:power_forward]
     @center = params[:center]
       erb :team
   end
